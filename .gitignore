@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+# ignore all samples.
+=======
+#ignore all samples
+>>>>>>> a649ff66cf3967facbc4f312b877403e35104805
+*.wav
+*.mp3
+*.aiff
