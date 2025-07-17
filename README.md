@@ -26,6 +26,7 @@ Some parameters of the super_states only make sense for my performance patch net
 
 
 ## Organization of patches
+![Overview](images/overview.png)
 This is just a demo project. It should only serve as an example of how to structure interaction with the knot object.
 network.pd is the main patch.
 It contains the puls-clock.pd patch, as well as the 3 super patches, super_tonart.pd, super_breakcore.pd, super_states.pd.
