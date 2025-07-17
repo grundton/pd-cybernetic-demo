@@ -135,12 +135,12 @@
 #X text 193 57 list;
 #N canvas 759 797 450 278 (subpatch) 0;
 #X array \$0-probabilities 24 float 3;
-#A 0 0 0.166667 0.166667 0.166667 0 0 0 0 0 0 0 0 0 0.166667 0.166667 0.166667 0 0 0 0 0 0 0 0;
+#A 0 0.166667 0.166667 0.166667 0 0 0 0 0 0 0 0 0 0.166667 0.166667 0.166667 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 24 0 400 50 1 0 0;
 #X restore 594 25 graph;
 #N canvas 440 478 450 278 (subpatch) 0;
 #X array \$0-CDF 24 float 3;
-#A 0 0 0.166667 0.333333 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.666667 0.833333 1 1 1 1 1 1 1 1 1;
+#A 0 0.166667 0.333333 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.666667 0.833333 1 1 1 1 1 1 1 1 1 1;
 #X coords 0 1 24 0 400 50 1 0 0;
 #X restore 594 95 graph;
 #X listbox 183 102 34 0 0 0 - - - 0;
@@ -332,7 +332,7 @@
 #X obj 479 716 makefilename knot%d;
 #X obj 383 717 list append;
 #X obj 100 100 cnv 19 42 42 empty \$0-cnv_r empty 15 6 0 10 #606060 #ff0000 0;
-#X obj 106 106 bng 30 250 50 0 \$0-bng_s \$0-bng_r \ D\  7 15 0 10 #606060 #ff0000 #ff0000;
+#X obj 106 106 bng 30 250 50 0 \$0-bng_s \$0-bng_r \ G\  7 15 0 10 #606060 #ff0000 #ff0000;
 #X text 750 531 print probabilities;
 #X text 899 873 set positions of canvas and bang;
 #X obj 190 166 s \$0-bng_r;
