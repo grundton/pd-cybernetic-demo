@@ -1,4 +1,4 @@
-#N canvas 0 38 1728 1051 12;
+#N canvas 0 38 864 1051 12;
 #X obj 189 48 r feed_in_31415926;
 #X text 1027 39 receive:;
 #X text 1027 59 - ordered list of adresses to neighboring knots \, starting with self;
@@ -332,7 +332,7 @@
 #X obj 479 716 makefilename knot%d;
 #X obj 383 717 list append;
 #X obj 100 100 cnv 19 42 42 empty \$0-cnv_r empty 15 6 0 10 #606060 #ff0000 0;
-#X obj 106 106 bng 30 250 50 0 \$0-bng_s \$0-bng_r \ G\  7 15 0 10 #606060 #ff0000 #ff0000;
+#X obj 106 106 bng 30 250 50 0 \$0-bng_s \$0-bng_r file.0 7 15 0 5 #606060 #ff0000 #ff0000;
 #X text 750 531 print probabilities;
 #X text 899 873 set positions of canvas and bang;
 #X obj 190 166 s \$0-bng_r;

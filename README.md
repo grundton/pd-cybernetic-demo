@@ -58,4 +58,18 @@ or you can simply send 10 to the [s delay_31415926].
 ## Routing
 The network patch produces midi notes.
 Drums are on channel 1, Bass on channel 2, Synths are on channel 3-8.
-To have sound, 
+To have sound, select the correct audio device from the MIDI settings of PD.
+
+## Building your own net
+Find examples on how to dynamically build nets in the net_XY.pd patches.
+Find examples on how to set knots and probabilities in the subpatches within the super_XY.pd patches.
+Find examples on how to route the messages to and from the knots in the super_XY.pd patches
+
+The arguemnts for the knots are:
+$1: knot number. All knots are part of a single net
+$2: net number
+$3: knot size
+$4: background color
+$5: front color
+$6: label color
+$7: alternative label
