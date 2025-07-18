@@ -19,10 +19,10 @@ However, just use network.pd and you can just route the events in your DAW, plea
 - Select the required output device for your DAW in the MIDI settings of Pure Data.
 - Start the puls-clock.pd within network.pd (red toggle box in the corner).
 - Click grey bang button on the bottom (sligthly towards the right) of any net_XY.pd patch (this will set the knot targets and transitions probabilities).
+- Click through the first 3 presets (they update on every 16th step of the puls-clock, so make sure that one is on) and figure out your way from there (Some parameters of the super_states only make sense for my performance patch network_performance.pd, however that requires some more work).
 - Click any tonart knot (try the a button) > you should see a change in the midiNoteMapping to the right of the network.pd patch
 - Click any drum knot (try the KCK button) > you should see a change in the midiNoteMapping to the right of the network.pd patch
-- Click through the first 3 presets (they update on every 16th step of the puls-clock, so make sure that one is on) and figure out your way from there.
-Some parameters of the super_states only make sense for my performance patch network_performance.pd, however that requires some more work.
+
 
 
 ## Organization of patches
