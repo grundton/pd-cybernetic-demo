@@ -61,9 +61,8 @@ Drums are on channel 1, Bass on channel 2, Synths are on channel 3-8.
 To have sound, select the correct audio device from the MIDI settings of PD.
 
 ## Building your own net
-Find examples on how to dynamically build nets in the net_XY.pd patches.
-Find examples on how to set knots and probabilities in the subpatches within the super_XY.pd patches.
-Find examples on how to route the messages to and from the knots in the super_XY.pd patches
+A minimum working example / tutorial can be found in the tutorial.pd patch!
+This should make setting up a net a little more clear!
 
 The arguemnts for the knots are:
 $1: knot number. All knots are part of a single net
